@@ -11,7 +11,7 @@ WORKDIR /usr/src/app
 COPY . /usr/src/app
 
 # Install all dependencies
-RUN python -mpip install -r requrinments.txt
+RUN python -mpip install -r requirements.txt
 
 # Expose the port
 EXPOSE 5000
